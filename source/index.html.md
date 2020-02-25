@@ -6,6 +6,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - ruby
   - python
   - javascript
+  - go
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
@@ -52,6 +53,14 @@ const kittn = require('kittn');
 
 let api = kittn.authorize('meowmeowmeow');
 ```
+
+```go
+const kittn = require('kittn');
+
+let api = kittn.authorize('meowmeowmeow in go');
+
+```
+
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
